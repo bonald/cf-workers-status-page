@@ -31,10 +31,11 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: blog-coolwindX
     name: My Blog
     url: 'https://blog.coolwind.tk'
     method: GET
     expectStatus: 200
+    linkable: false
