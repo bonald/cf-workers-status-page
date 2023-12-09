@@ -38,4 +38,11 @@ monitors:
     url: 'https://blog.coolwind.tk'
     method: GET
     expectStatus: 200
-    linkable: false
+    linkable: true
+
+  - id: fiora
+    name: fiora – Online Chat
+    url: 'https://chat.coolwind.tk'
+    method: GET
+    expectStatus: 200
+    linkable: true
